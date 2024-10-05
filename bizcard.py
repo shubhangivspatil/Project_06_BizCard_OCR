@@ -178,7 +178,19 @@ st.markdown("""
 - OCR
 - Streamlit GUI
 - SQL
-- Data Extraction
+
+**Project Overview**
+
+BizCardX is a Streamlit application designed to extract and manage information from business cards using easyOCR. Users can upload images of business cards, extract relevant details, and store the information in a database. The application also allows viewing, updating, and deleting data through an intuitive GUI.
+
+**Creator:**
+- Shubhangi Patil
+
+**Project:**
+- Data Science
+
+**GitHub Link:**
+- [GitHub Repository](https://github.com/shubhangivspatil)
 """)
 
 uploaded_file = st.file_uploader("Choose a business card image to upload", type=['png', 'jpg', 'jpeg'])
